@@ -1,8 +1,8 @@
 
 Nome do Projeto: Consulta Operadora
-URI do Projeto: 
-Autor: Wallace araujo
-URI do Autor: https://github.com/wallace-araujo/Consulta_Operadora_Php
+<br>
+Autor: Wallace araujo<br>
+URI do Autor: https://github.com/wallace-araujo/Consulta_Operadora_Php<br>
 Contato do Autor:  https://github.com/wallace-araujo/
 Descrição: O projeto consiste em um sistema que captura, de 3 diferentes sites, dados de operadoras telefônicas para números específicados pelo usuário.
 Version: 2.0
