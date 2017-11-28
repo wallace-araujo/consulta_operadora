@@ -15,13 +15,11 @@ NESTE ARQUIVO É ESPECIFICADO OS DADOS DE ACESSO AO BD (USUÁRIO, SENHA, NOME DO
 
 
 
-<br><br>
 <h3>LOGIN E SENHA PADRÃO</h3>
 Login: admin<br>
 Senha: 123
-<br><br>
+<br>
 
-<br><br>
 <h3>MODELO DA UTILIZAÇÃO DA API</h3>
 <br>
 <code>www.seudominio.com.br/src/api.php?numero=11900000000&login=admin&senha=123</code>
