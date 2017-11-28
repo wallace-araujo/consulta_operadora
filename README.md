@@ -23,3 +23,4 @@ Senha: 123
 <h3>MODELO DA UTILIZAÇÃO DA API</h3>
 <br>
 <code>www.seudominio.com.br/src/api.php?numero=11900000000&login=admin&senha=123</code>
+
