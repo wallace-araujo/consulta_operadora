@@ -25,7 +25,7 @@ Senha: 123
 <b>Operadora:</b> Claro<br>
 <b>Tipo:</b> Celular<br>
 <b>Cidade:</b> São Paulo e região metropolitana<br>
-<b>Estado:</b> São Paulo (SP)<br><br>
+<b>Estado:</b> São Paulo (SP)<br>
 <b>Portado:</b> N<br>
 
 
