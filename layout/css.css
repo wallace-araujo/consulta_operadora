@@ -1,0 +1,268 @@
+/*
+ * Configurações Gerais
+ */
+body {
+	margin: 0px;
+	font-family: Verdana;
+	font-size: 14px;
+}
+table {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+ * Cabeçalho
+ */
+.principal > thead tr {
+	background-color: #333333;
+	width: 100%;
+	height: 70px;
+}
+.title {
+	float: left;
+}
+.title h1 {
+	color: #CCCCCC;
+	font-size: 16px;
+	margin: 0px;
+	margin-left: 20px;
+}
+.title .sub_h1 {
+	color: #FFFFFF !important;
+	font-size: 26px !important;
+}
+.menutop {
+	float: right;
+	margin: 15px;
+}
+.menutop div {
+	display: inline-block;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 25px;
+	cursor: pointer;
+}
+.dadosuser {
+	width: 300px;
+	color: #FFFFFF;
+}
+.configuracao {
+	width: 25px;
+	background-image: url('settings.png');
+}
+.logout {
+	width: 25px;
+	background-image: url('logout.png');
+}
+
+/*
+ * Menu
+ */
+.side {
+	vertical-align: top;
+	padding: 50px 5px;
+	background-color: #555555;
+	width: 150px;
+	height: 100%;
+}
+h2 {
+	color: #FFFFFF;
+	font-size: 12px;
+	border-bottom: 2px solid #FFFFFF;
+}
+ul {
+	padding: 3px;
+}
+ul li {
+	color: #FFFFFF;
+	list-style: none;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+ul li:hover {
+	text-decoration: underline;
+}
+
+.menubutton form {
+	display: inline-block;
+}
+
+/*
+ * Conteúdo
+ */
+.content {
+	vertical-align: top;
+	padding: 15px;
+}
+.content h1 {
+	font-size: 25px;
+	color: #555555;
+	border-bottom: 1px solid #555555;
+}
+.content .enviar {
+	border: 0px;
+	border-radius: 5px;
+	background-color: #555555;
+	color: #FFFFFF;
+	padding: 5px 20px;
+	margin: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.content .enviar:hover {
+	background-color: #777777;
+}
+.content .export {
+	border: 0px;
+	border-radius: 5px;
+	background-color: #555555;
+	color: #FFFFFF;
+	padding: 5px 20px;
+	margin: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.content .export:hover {
+	background-color: #777777;
+}
+.content label {
+	color: #555555;
+	font-size: 12px;
+	font-weight: bold;
+}
+.content .numero {
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.content .inputuser {
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+.content .dadosresposta {
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 50px;
+}
+
+.login .content {
+	vertical-align: middle;
+}
+.auth {
+	width: 400px;
+	border: 1px solid #777777;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: right;
+}
+.auth .user {
+	width: 80px;
+	height: 80px;
+	float: left;
+	background-image: url('user.png');
+	background-size: 80px;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+.auth label {
+	width: 300px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14px;
+}
+.auth input[type="submit"] {
+	border: 1px solid #777777;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	width: 100px;
+	color: #555555;
+	cursor: pointer;
+	font-size: 14px;
+}
+.auth input[type="submit"]:hover {
+	background-color: #EEEEEE;
+}
+.auth input {
+	width: 300px;
+	padding: 5px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #777777;
+	border-radius: 3px;
+}
+.auth .erro {
+	padding: 25px 0px 0px 0px;
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+.login .content .auth {
+	margin: auto;
+}
+.login .content .data {
+	font-size: 20px;
+	color: #777777;
+}
+.login .content .hora {
+	padding-left: 30px;
+	font-size: 40px;
+	color: #555555;
+}
+
+.tableresposta {
+	height: 100px;
+}
+.tableresposta, .tableresposta td {
+	border: 1px solid #555555;
+}
+.tableresposta thead {
+	text-align: center;
+	background-color: #555555;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.tableresposta tbody {
+	text-align: center;
+	font-size: 12px;
+}
+.tableresposta tfoot {
+	text-align: center;
+	background-color: #555555;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.listausuario tbody tr:hover {
+	background-color: #EEEEEE;
+	cursor: pointer;
+}
+
+/*
+ * Rodapé
+ */
+.principal > tfoot tr {
+	background-color: #333333;
+	width: 100%;
+	height: 20px;
+	text-align: right;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.principal > tfoot tr td {
+	padding-right: 10px;
+}
+.principal > tfoot tr a {
+	color: #FFFFFF;
+}
