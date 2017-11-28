@@ -28,4 +28,4 @@ admin/123
 <br><br>
 MODELO DA UTILIZAÇÃO DA API
 <br>
-src/api.php?numero=11900000000&login=admin&senha=123
+<code>src/api.php?numero=11900000000&login=admin&senha=123</code>
