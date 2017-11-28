@@ -1,11 +1,14 @@
 
 Nome do Projeto: Consulta Operadora
 <br>
-Autor: Wallace araujo<br>
-URI do Autor: https://github.com/wallace-araujo/Consulta_Operadora_Php<br>
+Autor: Wallace araujo
+<br>
+URI do Autor: https://github.com/wallace-araujo/Consulta_Operadora_Php
+<br>
 Contato do Autor:  https://github.com/wallace-araujo/
+<br>
 Descrição: O projeto consiste em um sistema que captura, de 3 diferentes sites, dados de operadoras telefônicas para números específicados pelo usuário.
-Version: 2.0
+<br><br>Version: 2.0
 
 
 
@@ -17,12 +20,12 @@ NESTE ARQUIVO É ESPECIFICADO OS DADOS DE ACESSO AO BD (USUÁRIO, SENHA, NOME DO
 
 
 
-
-LOGIN E SENHA PADRÃO
+<br><br>
+LOGIN E SENHA PADRÃO<br>
 admin/123
+<br><br>
 
-
-
+<br><br>
 MODELO DA UTILIZAÇÃO DA API
-
+<br>
 src/api.php?numero=11900000000&login=admin&senha=123
